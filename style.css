@@ -1,13 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400&display=swap');
 
-* {
+* { 
   box-sizing: border-box;
 }
 
 body {
-  background-color: #6b6966;
+  
   color: #030303;
-  font-family: 'Poppins', sans-serif;
+  font-family:"sans-serif" ,'Poppins';
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -22,7 +22,9 @@ h3 {
   text-align: center;
   opacity: 0.4;
 }
-
+h5 {
+  text-align: center;
+}
 form {
   box-shadow: 0 4px 10px rgba(41, 4, 4, 0.1);
   max-width: 100%;
@@ -63,10 +65,4 @@ form {
 .todos li.completed {
   color: #b6b6b6;
   text-decoration: line-through;
-}
-
-small {
-  color: #b5b5b5;
-  margin-top: 3rem;
-  text-align: center;
 }
